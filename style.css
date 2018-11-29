@@ -132,3 +132,59 @@ button:active {
     background-color: #ce2029;
     background-image: none;
 }
+
+@media (max-width: 1500px) {
+    .header .header_icons {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .header .header_icons {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 678px) {
+    .header .header_icons {
+        max-width: 80%;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .contacts {
+        width: 55%;
+        margin: auto;
+    }
+
+    #timera35ae18509f75605256c2315141a5628 {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex !important;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        height: 500px !important;
+        min-width: 80vw !important;
+        align-items: center;
+        margin-bottom: 70px !important;
+    }
+
+    #timer-number-a35ae18509f75605256c2315141a5628-days {
+        margin-top: 40px !important;
+    }
+
+    #timer-number-a35ae18509f75605256c2315141a5628-hours {
+        margin-top: 40px !important;
+    }
+
+    #timer-number-a35ae18509f75605256c2315141a5628-minutes {
+        margin-top: 40px !important;
+    }
+
+    .timer-separator {
+        height: 300px !important;
+    }
+}
